@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Syllabus QR Code</title>
+</head>
+<body>
+
+<h2>Scan to Download MERN Syllabus</h2>
+
+<div id="qrcode"></div>
+
+<!-- QRCode JS CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+<script>
+  const syllabusURL = "https://yourwebsite.com/MERN_Syllabus_Developer_Guru.pdf";
+
+  new QRCode(document.getElementById("qrcode"), {
+    text: syllabusURL,
+    width: 200,
+    height: 200
+  });
+</script>
+
+</body>
+</html>
