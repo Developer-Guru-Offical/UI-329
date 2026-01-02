@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Development Job Bootcamp</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    
+/* GLOBAL */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background: #f5f5f5;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+/* HERO */
+#hero {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+}
+
+.stats {
+  margin: 1rem 0;
+}
+.stats span {
+  display: inline-block;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+.cta-form input, .cta-form button {
+  padding: 0.75rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+.cta-form button {
+  background: #ff6600;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* FEATURES */
+#features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.feature-card {
+  background: #fff;
+  padding: 1.25rem;
+  margin: 1rem;
+  flex: 1 1 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* JOURNEY */
+#journey .journey-step {
+  margin: 1rem 0;
+  background: #fff;
+  padding: 1rem;
+  border-left: 4px solid #ff6600;
+}
+
+/* TESTIMONIALS */
+#testimonials blockquote {
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+/* FAQ */
+#faq dt {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+#faq dd {
+  margin-left: 1.5rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="container">
+      <h1>Software Development Job Bootcamp</h1>
+      <p>Master Full Stack Web Development with real projects & career support</p>
+      <div class="stats">
+        <span>95% Placement Rate</span>
+        <span>1200+ Companies Hiring</span>
+        <span>128% Avg. Hike</span>
+      </div>
+      <form class="cta-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <button>Book Free Webinar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FEATURE SECTION -->
+  <section id="features">
+    <div class="container">
+      <div class="feature-card">Placement Assistance</div>
+      <div class="feature-card">AI-infused Curriculum</div>
+      <div class="feature-card">1:1 Mentorship</div>
+      <div class="feature-card">Faculty from Top Tech Companies</div>
+    </div>
+  </section>
+
+  <!-- BOOTCAMP JOURNEY -->
+  <section id="journey">
+    <div class="container">
+      <h2>Bootcamp Journey</h2>
+      <div class="journey-step">
+        <h3>Excited</h3>
+        <p>Orientation, meet instructors, join peers</p>
+      </div>
+      <div class="journey-step">
+        <h3>Confident</h3>
+        <p>Build real-world projects, doubt sessions</p>
+      </div>
+      <div class="journey-step">
+        <h3>Supported</h3>
+        <p>Interview prep & placement guidance</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container">
+      <h2>Success Stories</h2>
+      <blockquote>“I learned full stack dev & got my first job!”</blockquote>
+      <blockquote>“Mentorship & real projects helped me grow.”</blockquote>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <dl>
+        <dt>Who can join?</dt>
+        <dd>Final year students & working professionals.</dd>
+        <dt>Duration?</dt>
+        <dd>About 9 months of learning + placement support.</dd>
+      </dl>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Web Development Bootcamp. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

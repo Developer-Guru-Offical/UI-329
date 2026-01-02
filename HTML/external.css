@@ -1,6 +1,126 @@
-.textStyle{
-    background-color:red;
-    color:white;
-    text-align:center;
+.textStyle {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    /* background-color:red; */
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+
+.left {
+    /* background-color:red; */
+    height: 100px;
+    width: 15%;
+    float: left;
+}
+
+.right {
+    /* background-color:red; */
+    height: 100px;
+    width: 85%;
+    float: left;
+}
+
+.logoImage {
+    height: 70px;
+    width: 130px;
+    margin-left: 50px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.navbar li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.homeSection {
+    background-color: purple;
+    height: 550px;
+    width: 100%;
+    float: left;
+}
+
+.homeSection h3 {
+    text-align: center;
+    color: white;
+}
+
+.productSection {
+    background-color: orange;
+    height: 550px;
+    width: 100%;
+    float: left;
+}
+
+.productSection h3 {
+    text-align: center;
+    color: white;
+}
+
+.serviceSection {
+    background-color: blue;
+    height: 550px;
+    width: 100%;
+    float: left;
+}
+
+.serviceSection h3 {
+    text-align: center;
+    color: white;
+}
+
+.gallerySection {
+    background-color: black;
+    height: 550px;
+    width: 100%;
+    float: left;
+}
+
+.gallerySection h3 {
+    text-align: center;
+    color: white;
+}
+
+
+.blogSection {
+    background-color: goldenrod;
+    height: 550px;
+    width: 100%;
+    float: left;
+}
+
+.blogSection h3 {
+    text-align: center;
+    color: white;
+}
+
+.contactSection {
+    background-color: green;
+    height: 550px;
+    width: 100%;
+    float: left;
+}
+
+.contactSection h3 {
+    text-align: center;
+    color: white;
 }
 
