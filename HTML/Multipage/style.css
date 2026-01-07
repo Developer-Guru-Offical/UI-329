@@ -1,0 +1,102 @@
+.header {
+    /* background-color:red; */
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.leftSection {
+    /* background-color:blue; */
+    width: 15%;
+    height: 100px;
+    float: left;
+}
+.rightSection {
+    /* background-color: orangered; */
+    width: 85%;
+    height: 100px;
+    float: left;
+}
+.logoImage {
+    height: 80px;
+    width: 130px;
+    margin-left: 20px;
+}
+.navbar{
+    list-style-type: none;
+}
+.navbar li a{
+    text-decoration: none;
+    float:left;
+    padding:10px;
+    color:white;
+    font-size:18px;
+    margin-top:10px;
+    color:blueviolet;
+    font-weight: 500;
+}
+
+.navbar li a:hover{
+    color:red;
+    text-decoration: underline;
+    
+}
+
+.homeSection{
+    background-color: brown;
+    width:100%;
+    float:left;
+    height:550px;
+}
+
+.homeSection h1{
+    color:white;
+    text-align: center;
+}
+
+.aboutSection{
+    background-color: green;
+    width:100%;
+    float:left;
+    height:550px;
+}
+
+.aboutSection h1{
+    color:white;
+    text-align: center;
+}
+
+.serviceSection{
+    background-color: orangered;
+    width:100%;
+    float:left;
+    height:550px;
+}
+
+.serviceSection h1{
+    color:white;
+    text-align: center;
+}
+
+.productSection{
+    background-color: purple;
+    width:100%;
+    float:left;
+    height:550px;
+}
+
+.productSection h1{
+    color:white;
+    text-align: center;
+}
+
+.footerSection{
+    background-color:black;
+    height:80px;
+    width:100%;
+    float:left;
+
+}
+.footerSection h3{
+    color:white;
+    text-align: center;
+}
