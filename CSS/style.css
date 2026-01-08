@@ -1,0 +1,29 @@
+
+.bgColor{
+    background-color:red;
+    height:100px;
+    width:100%;
+    float:left;
+}
+
+.bgImage{
+    background-image:url('DG-New-Logo.jpeg');
+    width:100%;
+    height:200px;
+    float:left;
+    background-repeat: no-repeat; /******* Background-Property *********/
+    background-attachment: fixed; /******* Background-Property *********/
+}
+.textP{
+    text-align:center;
+    /* text-align:left;
+       text-align:right; */
+    /* text-decoration:overline; */
+    /* text-decoration:underline; */
+    /* text-decoration: line-through; */
+    /* text-transform: capitalize; */
+     /* text-transform: uppercase; */
+       text-transform:lowercase;
+       
+}
+
