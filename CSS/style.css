@@ -24,6 +24,39 @@
     /* text-transform: capitalize; */
      /* text-transform: uppercase; */
        text-transform:lowercase;
-       
+}
+
+.margin{
+    background-color:red;
+    height:100px;
+    /* margin:50px 60px 70px 80px; */
+    /* margin:50px 200px 70px; */
+    /* margin:50px 80px; */
+       margin:50px;
+}
+
+.padding{
+    background-color:purple;
+    color:white;
+    width:340px;
+    /* padding:20px 40px 60px 80px; */
+    /* padding:20px 60px 80px; */
+    /* padding:20px 40px; */
+    padding:40px;
+}
+
+.border
+{
+    border:5px solid red;
+     /* border:5px dashed purple; */
+     /* border:4px dotted green; */
+     /* border:5px double orangered; */
+     /* border:4px groove red; */
+    text-align:center;
+    padding:20px;
+    /* border-radius:5px 10px 15px 20px; */
+    /* border-radius:10px 20px 30px; */
+    border-radius:10px 30px;
+    /* border-radius:10px; */
 }
 
