@@ -60,3 +60,37 @@
     /* border-radius:10px; */
 }
 
+.colorCode{
+   /* background-color: #4DBAD7; */
+   background-color:rgb(77, 186, 215);
+   color:#ffffff;
+   text-align: center;
+}
+
+.opacity{
+    height:300px;
+    width:300px;
+    opacity: 0.4;
+    /* float:left; */
+    /* float:right; */
+    margin:auto;
+    display:block;
+}
+
+
+.textShadow{
+    color:red;
+    text-align:center;
+    text-shadow: 1px 1px 3px black;
+}
+
+.boxShadow{
+    /* background-color:aquamarine; */
+    height:200px;
+    width:200px;
+    display:block;
+    margin:auto;
+    border-radius:5px;
+    box-shadow:1px 1px 4px 4px rgba(0, 0, 0,0.2)
+    
+}
