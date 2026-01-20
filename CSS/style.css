@@ -94,3 +94,53 @@
     box-shadow:1px 1px 4px 4px rgba(0, 0, 0,0.2)
     
 }
+.absolutePosition
+{
+    background-color:purple;
+    height:100px;
+    width:200px;
+    position:absolute;
+    left:500px;
+    bottom:300px;
+}
+
+.fixedPosition
+{
+    background-color:purple;
+    height:100px;
+    width:100%;
+    position:fixed;
+    top:0px;
+}
+
+.stickyPosition{
+    background-color:orangered;
+    height:100px;
+    width:100%;
+    position:sticky;
+    top:0px;
+}
+
+/******************************* Raltive osition DEMO *****************/
+.A{
+    background-color:red;
+    height:200px;
+    width:50%;
+    float:left;
+    position:relative;
+}
+.A1{
+    background-color:white;
+    height:100px;
+    width:82%;
+    float:left;
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+.B{
+    background-color:purple;
+    height:200px;
+    width:50%;
+    float:left;
+}
