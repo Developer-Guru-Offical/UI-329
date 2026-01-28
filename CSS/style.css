@@ -1,146 +1,319 @@
-
-.bgColor{
-    background-color:red;
-    height:100px;
-    width:100%;
-    float:left;
+.bgColor {
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    float: left;
 }
 
-.bgImage{
-    background-image:url('DG-New-Logo.jpeg');
-    width:100%;
-    height:200px;
-    float:left;
-    background-repeat: no-repeat; /******* Background-Property *********/
-    background-attachment: fixed; /******* Background-Property *********/
+.bgImage {
+    background-image: url('DG-New-Logo.jpeg');
+    width: 100%;
+    height: 200px;
+    float: left;
+    background-repeat: no-repeat;
+    /******* Background-Property *********/
+    background-attachment: fixed;
+    /******* Background-Property *********/
 }
-.textP{
-    text-align:center;
+
+.textP {
+    text-align: center;
     /* text-align:left;
        text-align:right; */
     /* text-decoration:overline; */
     /* text-decoration:underline; */
     /* text-decoration: line-through; */
     /* text-transform: capitalize; */
-     /* text-transform: uppercase; */
-       text-transform:lowercase;
+    /* text-transform: uppercase; */
+    text-transform: lowercase;
 }
 
-.margin{
-    background-color:red;
-    height:100px;
+.margin {
+    background-color: red;
+    height: 100px;
     /* margin:50px 60px 70px 80px; */
     /* margin:50px 200px 70px; */
     /* margin:50px 80px; */
-       margin:50px;
+    margin: 50px;
 }
 
-.padding{
-    background-color:purple;
-    color:white;
-    width:340px;
+.padding {
+    background-color: purple;
+    color: white;
+    width: 340px;
     /* padding:20px 40px 60px 80px; */
     /* padding:20px 60px 80px; */
     /* padding:20px 40px; */
-    padding:40px;
+    padding: 40px;
 }
 
-.border
-{
-    border:5px solid red;
-     /* border:5px dashed purple; */
-     /* border:4px dotted green; */
-     /* border:5px double orangered; */
-     /* border:4px groove red; */
-    text-align:center;
-    padding:20px;
+.border {
+    border: 5px solid red;
+    /* border:5px dashed purple; */
+    /* border:4px dotted green; */
+    /* border:5px double orangered; */
+    /* border:4px groove red; */
+    text-align: center;
+    padding: 20px;
     /* border-radius:5px 10px 15px 20px; */
     /* border-radius:10px 20px 30px; */
-    border-radius:10px 30px;
+    border-radius: 10px 30px;
     /* border-radius:10px; */
 }
 
-.colorCode{
-   /* background-color: #4DBAD7; */
-   background-color:rgb(77, 186, 215);
-   color:#ffffff;
-   text-align: center;
+.colorCode {
+    /* background-color: #4DBAD7; */
+    background-color: rgb(77, 186, 215);
+    color: #ffffff;
+    text-align: center;
 }
 
-.opacity{
-    height:300px;
-    width:300px;
+.opacity {
+    height: 300px;
+    width: 300px;
     opacity: 0.4;
     /* float:left; */
     /* float:right; */
-    margin:auto;
-    display:block;
+    margin: auto;
+    display: block;
 }
 
 
-.textShadow{
-    color:red;
-    text-align:center;
+.textShadow {
+    color: red;
+    text-align: center;
     text-shadow: 1px 1px 3px black;
 }
 
-.boxShadow{
+.boxShadow {
     /* background-color:aquamarine; */
-    height:200px;
-    width:200px;
-    display:block;
-    margin:auto;
-    border-radius:5px;
-    box-shadow:1px 1px 4px 4px rgba(0, 0, 0,0.2)
-    
-}
-.absolutePosition
-{
-    background-color:purple;
-    height:100px;
-    width:200px;
-    position:absolute;
-    left:500px;
-    bottom:300px;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.2)
 }
 
-.fixedPosition
-{
-    background-color:purple;
-    height:100px;
-    width:100%;
-    position:fixed;
-    top:0px;
+.absolutePosition {
+    background-color: purple;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
 }
 
-.stickyPosition{
-    background-color:orangered;
-    height:100px;
-    width:100%;
-    position:sticky;
-    top:0px;
+.fixedPosition {
+    background-color: purple;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.stickyPosition {
+    background-color: orangered;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
 }
 
 /******************************* Raltive osition DEMO *****************/
-.A{
-    background-color:red;
-    height:200px;
-    width:50%;
-    float:left;
-    position:relative;
+.A {
+    background-color: red;
+    height: 200px;
+    width: 50%;
+    float: left;
+    position: relative;
 }
-.A1{
-    background-color:white;
-    height:100px;
-    width:82%;
-    float:left;
+
+.A1 {
+    background-color: white;
+    height: 100px;
+    width: 82%;
+    float: left;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.B {
+    background-color: purple;
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+
+.dropdownBtn {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.dropdownMenu a {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    display: block;
+    padding: 10px;
+
+}
+
+.dropdownMenu {
+    position: absolute;
+    display: none;
+
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdownMenu {
+    display: block;
+}
+
+.overflow{
+    border:2px solid red;
+    height:250px;
+    width:100%;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-y: scroll; */
+    overflow-x:scroll;
+}
+
+.zIndex{
     position:absolute;
-    top:50px;
-    left:50px;
-}
-.B{
-    background-color:purple;
-    height:200px;
+    height:300px;
+    width:300px;
+    top:20px;
+    left:0px;
+    z-index:-1;
+  }
+
+  .gradient{
+    /* background-color:purple; */
+    height:50px;
+    width:100%;
+    background-image:linear-gradient(to right,red,green,white,blue);
+  }
+
+  /*********************************
+   display: none;
+   display:visible;
+   display:inline;
+   display:block;
+   display:inline-block;
+   display: flex;
+  *********************************/
+  .display{
+    display:inline;
+    background-color:red;
+  }
+  .display1{
+    display:block;
+  }
+
+  .display2{
+    background-color:green;
+    display:flex;
+  }
+
+  input[type='text']
+  {
     width:50%;
-    float:left;
-}
+    padding:5px;
+    border-radius: 5px;
+    color:red;
+  }
+  input[type='email']
+  {
+    width:50%;
+    padding:5px;
+    border-radius: 5px;
+    color:red;
+  }
+  input[type='number']
+  {
+    width:50%;
+    padding:5px;
+    border-radius: 5px;
+    color:red;
+  }
+
+   input[type='submit']
+  {
+    width:50%;
+    padding:5px;
+    border-radius: 5px;
+    background-color: purple;
+    color:white;
+    border:none;
+    margin-left:40px;
+  }
+
+   input[type='submit']:hover
+  {
+    background-color: red;
+    color:white;
+   
+  }
+
+  select{
+    width:50%;
+    padding:5px;
+    border-radius: 5px;
+    color:red;
+  }
+
+  textarea{
+    width:50%;
+    padding:5px;
+    border-radius: 5px;
+    color:red; 
+  }
+
+  /************************** Selectors **************
+
+   1. class
+   2. Tagname
+   3. Id 
+
+   .demo {
+       // Your code
+       }
+
+    #demo {
+       // Your code
+       }
+
+     p{
+       // Your code
+       }
+
+   .Demo li a{
+     // Property
+   }
+
+   .Demo li{
+    }
+
+   .Demo:nth-child(even)
+   {
+    // Property
+   }
+
+   input[type='text']
+   {
+    // property code
+   }
+
+
+
+
+  ***************************************************/
