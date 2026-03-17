@@ -1,0 +1,116 @@
+<script>
+    //  1. Variable 
+    //  2. DataTypes 
+    //  3. operators 
+    //  4. Prepare Statement 
+    //  5. Functions 
+    //  6. Loops
+
+    /********************** Variable ************************/
+    var x; // declaration 
+    var x1 = 'JavaScript';
+    var name123 = 'Developer Guru';// string
+    var no5 = 20; // number
+    $first_name = 'Developer'
+    document.write($first_name);
+    //document.write(x1);
+    //document.write(name123);
+    //document.write(no5);
+
+    // Rules 
+    //1. we can't store multiple Data in single Variable
+    //2. We can't decalred any digit no before variable name
+    //3. space is not allowed between two words
+    //4. In special symbol character _ , $
+    //5. Js Is the case sensitive Lang
+
+    /**************************** DataTypes *************************/
+
+    //   1. int    // 243534545
+    //   2. float  // 64.57
+    //   3. string // 'Developer', "Developer Guru"
+    //   4. Array  // ['234','567','456','html','JS',57.0]
+    //   5. Boolean // true, false
+    //   6. null  // null
+    //   7. Object //
+
+    /*************************** int/ Float **********************/
+    no1 = 10; // int
+    no2 = 20.20; // float
+    console.log('1st No Is ' + no1);// concat
+    console.log("2nd No Is", no2); // sapration
+    console.log('Addition of 1st & 2nd no is', no1 + no2); // Arithmatic operations
+
+    /************************** string **********************/
+    course = 'I am learning Mern Stack course,100% Feature Oriented technology..!';
+    course1 = 'front end';
+    course2 = ' back end';
+    Ans = course1 + course2; // concatation
+    console.log(Ans);
+
+    /************************** Array ***********************/
+    course3 = ['html', 'CSS', 3637, 56.0, true];//
+    console.log(course3[1]);
+
+    /************************** Object ********************/
+    course4 = { 'h': 'html', 'c': 'CSS', 'b': 'Bootstrap', 'no1': 91, 'no2': 91.234 }
+    console.log(course4.b);
+
+    /************************* Operators *********************/
+
+    //  1. Arithmatic Operators (+,-,/,%)
+    //  2. Assignment Operators (=)
+    //  3. comparison operators (<,<=,>,>=,!=,===)
+    //  4. logical operators (||,&&)
+    //  5. increment & Decrement Operators (++,--)
+
+    /*********************** Prepare Statement *************/
+
+    no1 = 91;
+    no2 = 95;
+    if (no1 != 100 && no1 === no2) // True
+    {
+        //console.log('condition True'); // true
+        if (no1 > no2) {
+            console.log('true');
+            // if (condition) {
+            //     // code
+            // }
+            // else {
+            //     // code
+            // }
+        }
+        else {
+            console.log('false')
+        }
+    } else {
+        console.log('condition False'); // false
+    }
+
+    /*********************** loops ******************/
+    // 1. for 
+    // 2. while 
+    // 3. do_while
+     /************************** for ***************/ 
+      for(x=10;x<=20;x++) //20<20
+      {
+        //console.log(x); // 10,11,12,......19
+      }
+   
+    /*********************** While ***************/ 
+     z=40;
+     while(z>=20) //19>=20
+     {
+        //console.log(z); //40,39,38........20
+        z--;
+     }
+
+     /********************* do_while **************/
+     y=100;
+     do{
+        console.log(y); //100,101......109
+        y++; //101
+     }
+     while(y>=110) //101<110
+
+</script>
