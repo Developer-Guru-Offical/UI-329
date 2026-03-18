@@ -1,0 +1,181 @@
+.demo {
+   color: white;
+}
+
+.A {
+   background-color: red;
+   height: 200px;
+   width: 24%;
+   float: left;
+   margin-left: 10px;
+}
+
+.B {
+   background-color: green;
+   height: 200px;
+   width: 24%;
+   float: left;
+   margin-left: 10px;
+}
+
+.C {
+   background-color: blue;
+   height: 200px;
+   width: 24%;
+   float: left;
+   margin-left: 10px;
+}
+
+.D {
+   background-color: purple;
+   height: 200px;
+   width: 24%;
+   float: left;
+   margin-left: 10px;
+}
+
+@media screen and (max-width:1200px) {
+   .A {
+      background-color: red;
+      height: 200px;
+      width: 24%;
+      float: left;
+      margin-left: 10px;
+   }
+
+   .B {
+      background-color: green;
+      height: 200px;
+      width: 24%;
+      float: left;
+      margin-left: 10px;
+   }
+
+   .C {
+      background-color: blue;
+      height: 200px;
+      width: 24%;
+      float: left;
+      margin-left: 10px;
+   }
+
+   .D {
+      background-color: purple;
+      height: 200px;
+      width: 24%;
+      float: left;
+      margin-left: 10px;
+   }
+}
+
+@media screen and (max-width:900px) {
+   .A {
+      background-color: red;
+      height: 200px;
+      width: 98%;
+      float: left;
+      margin-left: 10px;
+   }
+
+   .B {
+      background-color: green;
+      height: 200px;
+      width: 98%;
+      float: left;
+      margin-left: 10px;
+   
+   }
+
+   .C {
+      background-color: blue;
+      height: 200px;
+      width: 98%;
+      float: left;
+      margin-left: 10px;
+      margin-top: 10px;
+   }
+
+   .D {
+      background-color: purple;
+      height: 200px;
+      width: 98%;
+      float: left;
+      margin-left: 10px;
+      margin-top: 10px;
+   }
+}
+
+
+@media screen and (max-width:700px) {
+   .A {
+      background-color: red;
+      height: 200px;
+      width: 48%;
+      float: left;
+      margin-left: 10px;
+   }
+
+   .B {
+      background-color: green;
+      height: 200px;
+      width: 48%;
+      float: left;
+      margin-left: 10px;
+     
+   }
+
+   .C {
+      background-color: blue;
+      height: 200px;
+      width: 48%;
+      float: left;
+      margin-left: 10px;
+      margin-top: 10px;
+   }
+
+   .D {
+      background-color: purple;
+      height: 200px;
+      width: 48%;
+      float: left;
+      margin-left: 10px;
+      margin-top: 10px;
+   }
+}
+
+@media screen and (max-width:500px) {
+   .A {
+      background-color: red;
+      height: 200px;
+      width: 98%;
+      float: left;
+      margin-left: 10px;
+   }
+
+   .B {
+      background-color: green;
+      height: 200px;
+      width: 98%;
+      float: left;
+      margin-left: 10px;
+     
+   }
+
+   .C {
+      background-color: blue;
+      height: 200px;
+      width: 98%;
+      float: left;
+      margin-left: 10px;
+      margin-top: 10px;
+   }
+
+   .D {
+      background-color: purple;
+      height: 200px;
+      width: 98%;
+      float: left;
+      margin-left: 10px;
+      margin-top: 10px;
+   }
+}
