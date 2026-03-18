@@ -1,0 +1,50 @@
+<script>
+    // local Scope 
+    // global scope 
+    // static scope 
+    let r=20; // global Scope
+ABC=()=>{
+    let p=100; // Local Scope
+    let q=200; // Local Scope
+    Ans=p+q+r;
+    console.log(Ans);
+}
+ //console.log(Ans); // global Scope
+ABC();
+
+/******************************************************/
+PQR=()=>{
+  console.log('Accessing Inside PQR',r);
+}
+PQR();
+
+/*****************************************************/ 
+
+XYZ=()=>{
+   let a=10;
+   let b= 20;
+   Ans= a*b;
+   console.log('Multiplication Of Two No Is',Ans);
+
+  {
+    let a=30;
+    let c=40;
+    Ans=a+b;
+    console.log('Addition of two no is',Ans);
+    console.log('Acccssing Gloabal Value',r);
+  } 
+
+  {
+    let a=30;
+    let c=40;
+    Ans=c-a;
+    console.log('Substraction of two no is',Ans);
+  }
+   
+}
+ XYZ();
+/***************************************************/ 
+
+
+
+</script>
