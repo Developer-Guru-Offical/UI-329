@@ -1,0 +1,80 @@
+<script>
+/**********
+ * map
+ * filter
+ * every
+ * 
+/********************** length *****************/
+
+ let course=['html','css','bootstrap','Js','ReactJS'];
+ console.log(course.length);
+
+ /********************* indexOf *******************/ 
+ let course1=['html','css','bootstrap','Js','ReactJS'];
+ console.log(course1.indexOf('css'));
+
+/********************* lastindexOf *******************/ 
+
+ let course2=['html','css','bootstrap','Js','ReactJS','css'];
+ console.log(course2.lastIndexOf('css'));
+
+ /********************* pop() *******************/ 
+
+ let course3=['html','css','bootstrap','Js','ReactJS'];
+ Ans=course3.pop(); // remove last elements
+ console.log(course3);
+
+ /********************** push() ********************/
+
+  let course4=['html','css','bootstrap','Js','ReactJS'];
+  Ans2=course4.push('NOde Js');
+  console.log(course4);
+
+/*********************** shift() ****************************/
+ let course5=['html','css','bootstrap','Js','ReactJS'];
+ Ans3=course5.shift();
+ console.log(course5);
+
+ /*********************** unshift() ****************************/
+ let course6=['html','css','bootstrap','Js','ReactJS'];
+ Ans4=course6.unshift('Angular')
+ console.log(course6);
+
+  /*********************** concat() ****************************/
+ let course7=['html','css','bootstrap','Js','ReactJS'];
+ let course8=['php','java','nodejs','python']
+ Ans5= course7.concat(course8);
+ console.log(Ans5);
+
+ /************************* reverse () **************/
+let course10=['html','css','bootstrap','Js','ReactJS'];
+console.log(course10.reverse());
+
+/************************ toString() *****************/
+let course11=['html','css','bootstrap','Js','ReactJS'];
+console.log(course11.toString());
+
+/************************ include() *****************/
+let course12=['html','css','bootstrap','Js','ReactJS'];
+console.log(course12.includes('Js'));
+
+/************************ slice() *****************/
+let course13=['html','css','bootstrap','Js','ReactJS'];
+console.log(course13.slice(2,4));
+
+/************************ splice() *****************/
+let course14=['html','css','bootstrap','Js','ReactJS'];
+console.log(course13.splice(2,2));
+
+/********************** sort() *************************/ 
+let course15=['html','css','bootstrap','js','reactJS'];
+console.log(course15.sort());// Ascending order
+Ans6=course15.sort();
+console.log(Ans6.reverse())// Descending Order
+
+let course16=[3,5,9,7,1,4,6];
+console.log(course16.sort());//Ascending Order
+Ans7=course16.sort()
+console.log(Ans7.reverse())//// Decending order
+
+</script>
