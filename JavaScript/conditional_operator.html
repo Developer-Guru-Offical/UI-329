@@ -1,0 +1,34 @@
+<script>
+    let getlocalValue= localStorage.getItem('name');
+    let getCourseValue= JSON.parse(localStorage.getItem('courseName'));
+    let getBackendValue= JSON.parse(localStorage.getItem('backEndCourse'))
+    console.log('getlocalvalue',getlocalValue)
+    document.write(getlocalValue);
+    document.write(getCourseValue[0]);
+    document.write(getBackendValue.P);
+    // if(condition)
+    // {
+    //     // code 
+    // } else 
+    // {
+    //     //code
+    // }
+
+    // (condition? true: false)
+
+   /****************************** conditional Operators *****************/ 
+
+    let x = 200;
+    let Ans = x < 100 ? 'x Is Greater No' : 'X Is the small no'
+    console.log(Ans);
+
+    /************************ spread operators ********************/ 
+
+    let course=['html','css','bootstrap','JS'];
+     console.log([...course,'react js']);
+
+
+    let course1={'h':'html','c':'css','b':'bootstrap','r':'reactJs'}
+    console.log({...course1,'m':'materialUI'});
+
+</script>

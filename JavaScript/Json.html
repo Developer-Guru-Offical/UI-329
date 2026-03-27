@@ -1,39 +1,108 @@
 <script>
-//JSON= JavaScript object Notation 
-//JSON= Array + Object 
+    //JSON= JavaScript object Notation 
+    //JSON= Array + Object 
 
-/**************** Array *************/ 
-let course=['html','css',4664,766.67,true];
-
-console.log(course[4])
-
-
-/***************** Object ****************/ 
-
-let course1={'h':'html','c':'css','n':1234,'n1':'356.25'}
-
-console.log(course1.h);
-
-/********************* Json Format *****************/ 
+    /**************** Array *************/
+    let course = ['html', 'css', 4664, 766.67, true];
+    console.log(course[4])
 
 
-const users= [
-    {
-      "id": 1,
-      "name": "Alice",
-      "email": "alice@example.com"
-    },
-    {
-      "id": 2,
-      "name": "Bob",
-      "email": "bob@example.com"
-    },
-    {
-      "id": 3,
-      "name": "Charlie",
-      "email": "charlie@example.com"
+    /***************** Object ****************/
+
+    let course1 = { 'h': 'html', 'c': 'css', 'n': 1234, 'n1': '356.25' }
+    console.log(course1.h);
+
+    /********************* Json Format *****************/
+
+
+    const users = [
+        {
+            "id": 1,
+            "name": "Alice",
+            "email": "alice@example.com"
+        },
+        {
+            "id": 2,
+            "name": "Bob",
+            "email": "bob@example.com"
+        },
+        {
+            "id": 3,
+            "name": "Charlie",
+            "email": "charlie@example.com"
+        }
+    ]
+    console.log(users[1].name);
+
+    const CandidateData = {
+        "user": {
+            "id": 101,
+            "name": "Aarav Sharma",
+            "email": "aarav.sharma@example.com",
+            "isActive": true,
+            "roles": ["admin", "editor"]
+        },
+        "products": [
+            {
+                "id": "P001",
+                "name": "Wireless Mouse",
+                "price": 799.99,
+                "inStock": true,
+                "tags": ["electronics", "accessories"]
+            },
+            {
+                "id": "P002",
+                "name": "Mechanical Keyboard",
+                "price": 2499.50,
+                "inStock": false,
+                "tags": ["electronics", "gaming"]
+            }
+        ],
+        "orders": [
+            {
+                "orderId": "O1001",
+                "userId": 101,
+                "date": "2026-03-23",
+                "status": "shipped",
+                "items": [
+                    { "productId": "P001", "quantity": 2 },
+                    { "productId": "P002", "quantity": 1 }
+                ],
+                "totalAmount": 4099.48
+            }
+        ]
     }
-  ]
 
-  console.log(users[1].name);
+
+    // Mock data: an array of user objects
+    const usersData = [
+        { id: 1, name: "Alice", age: 25 },
+        { id: 2, name: "Bob", age: 30 },
+        { id: 3, name: "Charlie", age: 28 }
+    ];
+
+    // Mock data: an array of user objects
+    const users1 = [
+        { id: 1, name: "Alice", isActive: true },
+        { id: 2, name: "Bob", isActive: false },
+        { id: 3, name: "Charlie", isActive: true }
+    ];
+
+    // Use filter() to get only active users
+    const activeUsers = users1.filter(user => user.isActive === true);
+
+    console.log(activeUsers,'Active users');
+
+    const name = usersData.map(user => {
+        return `<p> Name:'${user.name}'</p>`
+    });
+
+    document.write(name);
+    // Use map() to transform the data
+    const userNames = usersData.map(u => {
+        return u.age;
+    })
+    //const userNames = users.map(user => user.name);
+    console.log(userNames);
+    // Output: ["Alice", "Bob", "Charlie"]
 </script>
