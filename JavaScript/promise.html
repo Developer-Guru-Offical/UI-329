@@ -1,0 +1,60 @@
+
+<button onclick="callMe()"> Click Me</button>
+
+<script>
+
+// API Intigration 
+
+// timeout / callback 
+let callMe=()=>{
+ setTimeout(
+    function(){
+       console.log('Have a nice DaY...!');
+       alert('Wlecome to Developer Guru Family..!');
+    },5000
+);
+}
+
+/*************************************/ 
+
+// promises- 
+
+// 1. Pending 
+// 2. fillful / resolved 
+// 3. Reject 
+
+//            Pending       resloved
+// request -------------> ----------->
+//                          Reject 
+
+//              Request         Pending           resolved / Reject
+// front-end ----------------> -------------> ----------------------->
+//                               Process          Response
+            
+
+
+//    1. asyc ---> send the request and getting 100% response 
+//    2. await ---> waiting for response   
+   
+
+
+   const userDetails= async ()=>{
+
+        const response= await getUserDetails('https://www.developerguru.in/Employee');// pending
+
+        if(response === 200)
+        {
+            console.log(response); // resolved 
+        }
+        else{
+            console.log('Something happen wrong, Pls try again...!'); // Reject
+        }
+    
+   }
+
+   userDetails();
+
+   
+
+
+</script>

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Guru</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!----------------------- External CSS Link ------->
+    <link href="external.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    <!-- HEADER WITH LOGO -->
+    <!-- HEADER WITH NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-2 sticky-top">
+        <div class="container">
+
+            <!-- LOGO -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="DG-New-Logo.jpeg" alt="Developer Guru Logo" height="45">
+            </a>
+
+            <!-- MOBILE TOGGLE -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- MENU ITEMS -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+
+                    <!-- REGISTER BUTTON -->
+                    <li class="nav-item ms-3">
+                        <a class="btn btn-primary px-4 rounded-pill" data-bs-toggle="modal"
+                            data-bs-target="#registerModal">
+                            Register
+                        </a>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <!-- HERO SECTION WITH FORM -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- LEFT TEXT -->
+                <div class="col-md-6 hero-text">
+                    <h1>Upgrade Your Career with Developer Guru</h1>
+                    <p class="mt-3">
+                        Learn Full Stack Development, AI & Real Projects.
+                        Start your journey today!
+                    </p>
+                </div>
+
+                <!-- RIGHT FORM -->
+                <div class="col-md-6">
+                    <div class="form-card">
+                        <h3 class="text-center mb-4">Enroll Now 🚀</h3>
+
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Full Name" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Phone Number" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-100 btn btn-primary">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+   <!-- WHY CHOOSE US -->
+<section class="section bg-light">
+    <div class="container text-center">
+
+        <h2 class="fw-bold mb-3">Why Choose Developer Guru?</h2>
+        <p class="text-muted mb-5">We provide practical training that helps you become job-ready.</p>
+
+        <div class="row g-4">
+
+            <!-- CARD 1 -->
+            <div class="col-md-4">
+                <div class="feature-card p-4">
+                    <div class="icon">💻</div>
+                    <h5 class="mt-3">Industry-Oriented Training</h5>
+                    <p>Learn with real-time projects and latest technologies used in companies.</p>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-md-4">
+                <div class="feature-card p-4">
+                    <div class="icon">👨‍🏫</div>
+                    <h5 class="mt-3">Expert Mentors</h5>
+                    <p>Get guidance from experienced developers working in top IT companies.</p>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-md-4">
+                <div class="feature-card p-4">
+                    <div class="icon">🚀</div>
+                    <h5 class="mt-3">Placement Support</h5>
+                    <p>We help you prepare for interviews and connect you with job opportunities.</p>
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-md-4">
+                <div class="feature-card p-4">
+                    <div class="icon">📚</div>
+                    <h5 class="mt-3">Hands-on Projects</h5>
+                    <p>Work on live projects to build a strong portfolio and practical skills.</p>
+                </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="col-md-4">
+                <div class="feature-card p-4">
+                    <div class="icon">⏰</div>
+                    <h5 class="mt-3">Flexible Timings</h5>
+                    <p>Weekend & weekday batches available for students and working professionals.</p>
+                </div>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="col-md-4">
+                <div class="feature-card p-4">
+                    <div class="icon">🏆</div>
+                    <h5 class="mt-3">Certification</h5>
+                    <p>Get recognized certification after successful course completion.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- COURSES SECTION -->
+<section class="section">
+    <div class="container text-center">
+
+        <h2 class="fw-bold mb-3">Our Popular Courses</h2>
+        <p class="text-muted mb-5">Choose the best course to upgrade your career 🚀</p>
+
+        <div class="row g-4">
+
+            <!-- COURSE 1 -->
+            <div class="col-md-4">
+                <div class="course-card">
+                    <div class="course-img bg1">Full Stack</div>
+                    <div class="p-4">
+                        <h5>Full Stack Development</h5>
+                        <p>Learn HTML, CSS, JavaScript, React, Node.js & build real projects.</p>
+                        <span class="badge bg-success mb-2">Trending</span>
+                        <br>
+                        <button class="btn btn-course mt-2" data-bs-toggle="modal" data-bs-target="#registerModal">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COURSE 2 -->
+            <div class="col-md-4">
+                <div class="course-card">
+                    <div class="course-img bg2">Frontend</div>
+                    <div class="p-4">
+                        <h5>Frontend Development</h5>
+                        <p>Master UI development using HTML, CSS, Bootstrap & React.</p>
+                        <span class="badge bg-primary mb-2">Popular</span>
+                        <br>
+                        <button class="btn btn-course mt-2" data-bs-toggle="modal" data-bs-target="#registerModal">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COURSE 3 -->
+            <div class="col-md-4">
+                <div class="course-card">
+                    <div class="course-img bg3">Backend</div>
+                    <div class="p-4">
+                        <h5>Backend Development</h5>
+                        <p>Learn Node.js, Express & Database (MongoDB, SQL).</p>
+                        <span class="badge bg-warning text-dark mb-2">New</span>
+                        <br>
+                        <button class="btn btn-course mt-2" data-bs-toggle="modal" data-bs-target="#registerModal">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COURSE 4 -->
+            <div class="col-md-4">
+                <div class="course-card">
+                    <div class="course-img bg4">AI</div>
+                    <div class="p-4">
+                        <h5>AI & Machine Learning</h5>
+                        <p>Learn Python, AI tools, and real-world machine learning models.</p>
+                        <span class="badge bg-danger mb-2">Hot</span>
+                        <br>
+                        <button class="btn btn-course mt-2" data-bs-toggle="modal" data-bs-target="#registerModal">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COURSE 5 -->
+            <div class="col-md-4">
+                <div class="course-card">
+                    <div class="course-img bg5">Testing</div>
+                    <div class="p-4">
+                        <h5>Software Testing</h5>
+                        <p>Manual + Automation testing with real-time projects.</p>
+                        <span class="badge bg-info text-dark mb-2">Career Start</span>
+                        <br>
+                        <button class="btn btn-course mt-2" data-bs-toggle="modal" data-bs-target="#registerModal">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COURSE 6 -->
+            <div class="col-md-4">
+                <div class="course-card">
+                    <div class="course-img bg6">Java</div>
+                    <div class="p-4">
+                        <h5>Java Development</h5>
+                        <p>Core Java, Advanced Java & Spring Boot for backend development.</p>
+                        <span class="badge bg-secondary mb-2">Recommended</span>
+                        <br>
+                        <button class="btn btn-course mt-2" data-bs-toggle="modal" data-bs-target="#registerModal">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- CAREER PATH SECTION -->
+<section class="section animated-bg">
+    <div class="container text-center">
+
+        <h2 class="fw-bold mb-3">Your Journey to Placement 🚀</h2>
+        <p class="text-muted mb-5">From learning skills to getting your dream job</p>
+
+        <div class="timeline">
+
+            <!-- STEP 1 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">📘</div>
+                <div class="timeline-content">
+                    <h5>Learn Technical Skills</h5>
+                    <p>Master HTML, CSS, JavaScript, React, Backend & more.</p>
+                </div>
+            </div>
+
+            <!-- STEP 2 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">💻</div>
+                <div class="timeline-content">
+                    <h5>Work on Real Projects</h5>
+                    <p>Build live projects to gain practical experience.</p>
+                </div>
+            </div>
+
+            <!-- STEP 3 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">🧠</div>
+                <div class="timeline-content">
+                    <h5>Interview Preparation</h5>
+                    <p>Mock interviews, coding practice & resume building.</p>
+                </div>
+            </div>
+
+            <!-- STEP 4 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">📄</div>
+                <div class="timeline-content">
+                    <h5>Resume & Portfolio</h5>
+                    <p>Create strong resume & portfolio to impress recruiters.</p>
+                </div>
+            </div>
+
+            <!-- STEP 5 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">🏢</div>
+                <div class="timeline-content">
+                    <h5>Placement Assistance</h5>
+                    <p>Get job referrals & interview opportunities.</p>
+                </div>
+            </div>
+
+            <!-- STEP 6 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">🎯</div>
+                <div class="timeline-content">
+                    <h5>Get Your Dream Job</h5>
+                    <p>Start your career as a professional developer.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- TESTIMONIAL SECTION -->
+<section class="section bg-light">
+    <div class="container text-center">
+
+        <h2 class="fw-bold mb-3">What Our Students Say 💬</h2>
+        <p class="text-muted mb-5">Real success stories from our students</p>
+
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <!-- TESTIMONIAL 1 -->
+                <div class="carousel-item active">
+                    <div class="testimonial-card mx-auto">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="testimonial-img">
+                        <h5 class="mt-3">Akshay Patil</h5>
+                        <p class="text-warning">⭐⭐⭐⭐⭐</p>
+                        <p>
+                            "Developer Guru helped me land my first job as a Full Stack Developer. 
+                            The training and projects were very practical."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- TESTIMONIAL 2 -->
+                <div class="carousel-item">
+                    <div class="testimonial-card mx-auto">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="testimonial-img">
+                        <h5 class="mt-3">Sneha Joshi</h5>
+                        <p class="text-warning">⭐⭐⭐⭐⭐</p>
+                        <p>
+                            "Best institute for learning frontend development. Trainers are very supportive."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- TESTIMONIAL 3 -->
+                <div class="carousel-item">
+                    <div class="testimonial-card mx-auto">
+                        <img src="https://randomuser.me/api/portraits/men/65.jpg" class="testimonial-img">
+                        <h5 class="mt-3">Rahul Shinde</h5>
+                        <p class="text-warning">⭐⭐⭐⭐⭐</p>
+                        <p>
+                            "The placement support is amazing. I got placed within 2 months after course completion."
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CONTROLS -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
+            </button>
+
+        </div>
+
+    </div>
+</section>
+
+    <!-- REGISTER MODAL -->
+    <div class="modal fade" id="registerModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 rounded-4">
+
+                <!-- HEADER -->
+                <div class="modal-header text-white" style="background: linear-gradient(135deg, #4e54c8, #8f94fb);">
+                    <h5 class="modal-title">🚀 Register Now</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- BODY -->
+                <div class="modal-body p-4">
+
+                    <form>
+
+                        <div class="mb-3">
+                            <input type="text" class="form-control custom-input" placeholder="Full Name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="email" class="form-control custom-input" placeholder="Email Address" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="tel" class="form-control custom-input" placeholder="Phone Number" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <select class="form-control custom-input">
+                                <option selected>Select Course</option>
+                                <option>Full Stack Development</option>
+                                <option>Frontend Development</option>
+                                <option>Backend Development</option>
+                                <option>AI & Machine Learning</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <textarea class="form-control custom-input" rows="3" placeholder="Message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-gradient w-100 mt-2">Submit Registration</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 Developer Guru | www.developerguru.in | 9767171696</p>
+    </footer>
+
+</body>
+
+</html>

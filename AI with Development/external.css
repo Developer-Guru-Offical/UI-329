@@ -1,0 +1,340 @@
+ body {
+     font-family: 'Poppins', sans-serif;
+ }
+
+ /* HERO SECTION */
+ .hero {
+     min-height: 100vh;
+     background: linear-gradient(135deg, #4e54c8, #8f94fb);
+     display: flex;
+     align-items: center;
+ }
+
+ /* FORM CARD */
+ .form-card {
+     background: rgba(255, 255, 255, 0.15);
+     backdrop-filter: blur(12px);
+     border-radius: 15px;
+     padding: 30px;
+     color: white;
+     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+ }
+
+ .form-control {
+     border-radius: 10px;
+     border: none;
+     padding: 12px;
+ }
+
+ .form-control:focus {
+     box-shadow: none;
+     border: 2px solid #fff;
+ }
+
+ .btn-custom {
+     background: #fff;
+     color: #4e54c8;
+     font-weight: 600;
+     border-radius: 10px;
+     padding: 10px;
+ }
+
+ .btn-custom:hover {
+     background: #eaeaea;
+ }
+
+ /* TEXT SECTION */
+ .hero-text h1 {
+     font-size: 2.8rem;
+     font-weight: 700;
+     color: white;
+ }
+
+ .hero-text p {
+     color: #f1f1f1;
+ }
+
+ /* ABOUT */
+ .section {
+     padding: 60px 0;
+ }
+
+ .footer {
+     background: #111;
+     color: #fff;
+     text-align: center;
+     padding: 15px;
+ }
+/*********** Navbar Code ****************/
+ .navbar .nav-link {
+     color: #333;
+     margin: 0 8px;
+     transition: 0.3s;
+ }
+
+ .navbar .nav-link:hover {
+     color: #4e54c8;
+ }
+
+ .navbar .btn {
+     background: linear-gradient(45deg, #4e54c8, #8f94fb);
+     border: none;
+ }
+
+ .navbar .btn:hover {
+     opacity: 0.9;
+ }
+
+ /* MODAL INPUT STYLE */
+.custom-input {
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.custom-input:focus {
+    border-color: #4e54c8;
+    box-shadow: 0 0 8px rgba(78, 84, 200, 0.3);
+}
+
+/* GRADIENT BUTTON */
+.btn-gradient {
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.btn-gradient:hover {
+    opacity: 0.9;
+    
+}
+
+/************ why choose us section **********/ 
+.feature-card {
+    background: #fff;
+    border-radius: 15px;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    height: 100%;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.feature-card .icon {
+    font-size: 40px;
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    color: white;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/** Course Section **/
+.course-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    height: 100%;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.course-img {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Gradient backgrounds */
+.bg1 { background: linear-gradient(45deg, #4e54c8, #8f94fb); }
+.bg2 { background: linear-gradient(45deg, #00c6ff, #0072ff); }
+.bg3 { background: linear-gradient(45deg, #f7971e, #ffd200); }
+.bg4 { background: linear-gradient(45deg, #ff416c, #ff4b2b); }
+.bg5 { background: linear-gradient(45deg, #11998e, #38ef7d); }
+.bg6 { background: linear-gradient(45deg, #654ea3, #eaafc8); }
+
+.btn-course {
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+.btn-course:hover {
+    opacity: 0.9;
+}
+
+/** Testimonial Review **/
+
+/* TESTIMONIAL CARD */
+.testimonial-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 500px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    transition: 0.4s;
+    animation: fadeInUp 1s ease;
+}
+
+/* HOVER EFFECT */
+.testimonial-card:hover {
+    transform: translateY(-10px);
+}
+
+/* IMAGE */
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #4e54c8;
+}
+
+/* ANIMATION */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* CAROUSEL BUTTON FIX */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 60% 60%;
+}
+
+/* TIMELINE */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* VERTICAL LINE */
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background: linear-gradient(#4e54c8, #8f94fb);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ITEM */
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    position: relative;
+}
+
+/* LEFT SIDE */
+.timeline-item:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+/* CONTENT */
+.timeline-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 45%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    animation: fadeInUp 1s ease;
+}
+
+/* ICON */
+.timeline-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 0 20px;
+    z-index: 1;
+}
+
+/* ANIMATION */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* MOBILE RESPONSIVE */
+@media(max-width: 768px) {
+
+    .timeline::before {
+        left: 20px;
+    }
+
+    .timeline-item {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 40px;
+    }
+
+    .timeline-content {
+        width: 100%;
+    }
+
+    .timeline-icon {
+        position: absolute;
+        left: -30px;
+    }
+}
+/* ANIMATED BACKGROUND */
+.animated-bg {
+    background: linear-gradient(-45deg, #4e54c8, #8f94fb, #00c6ff, #0072ff);
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
+    /* color: white; */
+}
+
+/* ANIMATION */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
