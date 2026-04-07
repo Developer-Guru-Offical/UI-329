@@ -338,3 +338,199 @@
         background-position: 0% 50%;
     }
 }
+
+
+/****************** footer section **************/ 
+.footer-section {
+    background: linear-gradient(135deg, #1d1f27, #2c2f3a);
+    color: #fff;
+    padding: 60px 0 20px;
+}
+
+.footer-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+/* Underline effect */
+.footer-title::after {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background: #8f94fb;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+/* List */
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ccc;
+    transition: 0.3s;
+}
+
+.footer-list li:hover {
+    color: #fff;
+    transform: translateX(5px);
+}
+
+/* Links */
+.footer-list a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: #fff;
+}
+
+/* Social Icons */
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #fff;
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: #8f94fb;
+    transform: scale(1.1);
+}
+
+/********************** About page css code **************/ 
+  /* HERO */
+        .about-hero {
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        /* SECTION */
+        .section {
+            padding: 60px 0;
+        }
+
+        /* CARD */
+        .info-card {
+            padding: 25px;
+            border-radius: 15px;
+            background: #fff;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: 0.3s;
+            height: 100%;
+        }
+
+        .info-card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* ICON */
+        .icon {
+            font-size: 40px;
+            color: #4e54c8;
+        }
+
+        /* TEAM */
+        .team-card {
+            text-align: center;
+        }
+
+        .team-card img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .team-card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        /* FOOTER */
+        .footer {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* FOOTER */
+        .footer-section {
+            background: linear-gradient(135deg, #1d1f27, #2c2f3a);
+            color: #fff;
+            padding: 60px 0 20px;
+        }
+
+        .footer-title {
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .footer-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-list li {
+            margin-bottom: 8px;
+            color: #ccc;
+        }
+
+        .footer-list a {
+            color: #ccc;
+            text-decoration: none;
+        }
+
+        .footer-list a:hover {
+            color: #fff;
+        }
+
+        .social-icons a {
+            margin-right: 10px;
+            font-size: 20px;
+            color: #fff;
+        }
+
+        /************* hover effect on header lik **********/ 
+
+        /* NAVBAR LINKS HOVER EFFECT */
+.navbar .nav-link {
+    position: relative;
+    color: #333;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+/* BORDER BOTTOM ANIMATION */
+.navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #4e54c8;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.navbar .nav-link:hover::after {
+    width: 100%;
+}
+
+/* ACTIVE LINK (OPTIONAL) */
+.navbar .nav-link.active::after {
+    width: 100%;
+}
