@@ -4,7 +4,9 @@ import './Footer.css'
 const Footer=()=>{
 
     return (
-        <h3 className='textTitleFooter'> THIS IS THE FOOTER</h3>
+        <div className='mainFooter'>
+            <h3> Copyrights @2026. All right reserved by Developer Guru</h3>
+        </div>
     )
 
 }
