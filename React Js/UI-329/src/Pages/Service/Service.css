@@ -1,0 +1,12 @@
+
+.serviceMainWrap{
+    width:100%;
+    float:left;
+    height:500px;
+    background-color:orangered;
+}
+
+.serviceMainWrap h3{
+    text-align:center;
+    color:white;
+}

@@ -1,0 +1,14 @@
+
+
+.productTitle
+{
+   width:100%;
+    float:left;
+    height:500px;
+    background-color:green;
+}
+
+.productTitle h3{
+   color:white;
+   text-align:center;
+}
