@@ -1,19 +1,27 @@
 import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from './assets/vite.svg'
-// import heroImg from './assets/hero.png'
+import {Routes, Route,} from "react-router-dom";
 import dgLogo from './assets/DG-New-Logo.jpeg'
 import './App.css'
 import Home from './Pages/Home'
-import Header from './Components/Header'
-import Footer from './Components/Footer'
+import About from './Pages/About'
+import Product from './Pages/Product'
+import Service from './Pages/Service'
+// import Gallery from './Pages/Gallery'
+// import Placement from './Pages/Placement'
+// import Blog from './Pages/Blog'
 
 function App() {
   return (
     <>
-      <Header/>
-       <Home/>
-       <Footer/>
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="About" element={<About />} />
+          <Route path="Product" element={<Product />} />
+          <Route path="Service" element={<Service />} />
+          {/* <Route path="Gallery" element={<Gallery />} />
+          <Route path="Blog" element={<Blog />} />
+          <Route path="Placement" element={<Placement />} /> */}
+        </Routes>
     </>
   )
 }

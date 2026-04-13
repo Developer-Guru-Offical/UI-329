@@ -1,7 +1,14 @@
-.title
+.aboutMainWrap
 {
+    float: left;
+    width:100%;
     text-align: center;
     background-color:purple;
-    height:50px;
+    height:500px;
+    color:white;
+}
+
+.aboutMainWrap h3{
+    text-align:center;
     color:white;
 }
