@@ -1,0 +1,25 @@
+//@import '../../assets/scss/variable.scss';
+//@use "../../assets/scss/variables.scss";
+
+.mainWrapper
+{
+    width:100%;
+    float:left;
+    height:500px;
+    background-color:blueviolet;
+}
+
+.textTitleHome{
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
+    // text-align:center;
+}
+
+.textTitleHome1{
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
+    background-color:red;
+    text-align:center;
+}
