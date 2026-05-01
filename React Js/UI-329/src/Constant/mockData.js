@@ -47,4 +47,36 @@
 
     ]
 
+     export const productDetails = [
+        {
+            "p_Id":1,
+            "pname": "MERN STACK",
+            "pcode": "MERN91",
+            "Duration": "4 Months",
+            "Mode":"Online/Ofline"
+        },
+        {
+            "p_Id":2,
+            "pname": "FUll STACK",
+            "pcode": "full91",
+            "Duration": "6 Months",
+            "Mode":"Online/Ofline"
+        },
+        {
+            "p_Id":3,
+            "pname": "MEAN STACK",
+            "pcode": "MEAN91",
+            "Duration": "4 Months",
+            "Mode":"Online/Ofline"
+        },
+        {
+            "p_Id":4,
+            "pname": "AGENTIC AI",
+            "pcode": "agenticai91",
+            "Duration": "8 Months",
+            "Mode":"Online/Ofline"
+        },
+
+    ]
+
 
