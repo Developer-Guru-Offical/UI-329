@@ -7,9 +7,9 @@ const ProductDetails = ({ product }) => {
 
     console.log(product, 'product@@#####');
 
-    const redirect = (P_Id) => {
-        //console.log(P_Id, 'P_Id@@###')
-        localStorage.setItem('product_Id',P_Id)
+    const redirect = (item) => {
+        // console.log(item, 'item@@###')
+        localStorage.setItem('product_Details',JSON.stringify(item))
         navigate("/productMoreDetails")
     }
 
@@ -25,7 +25,7 @@ const ProductDetails = ({ product }) => {
                             <p>Duration: {item.Duration}</p>
                             <p>Mode: {item.Mode}</p>
                         </div>
-                        <div className='card-footer text-center'><button className='btn btn-primary' onClick={() => redirect(item.p_Id)}>View Details</button></div>
+                        <div className='card-footer text-center'><button className='btn btn-primary' onClick={() => redirect([item])}>View Details</button></div>
                     </div>
                 </div>
             })}
