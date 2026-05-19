@@ -5,12 +5,13 @@ import './Service.css'
 const Service = () => {
     const [serviceDetails, setServiceDetails] = useState();
     console.log(serviceDetails, 'serviceDetails@@###')
+
     useEffect(() => {
         getServiceProductDetails();
+        console.log('useEffect called...!');
     }, []);
 
     const getServiceProductDetails = () => {
-
         fetch('https://jsonplaceholder.typicode.com/posts')
             .then(response => response.json())
             .then(json => setServiceDetails(json)
