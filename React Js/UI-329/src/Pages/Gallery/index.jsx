@@ -29,8 +29,8 @@ const Gallery = () => {
     }
   const redirect=(id)=>{
         //console.log(id,'item.id@@####');
-        localStorage.setItem('p_id',JSON.stringify(id));
-        navigate("/productMoreDetails")
+        localStorage.setItem('u_id',JSON.stringify(id));
+        navigate("/galleryDetails")
      
     }
 
