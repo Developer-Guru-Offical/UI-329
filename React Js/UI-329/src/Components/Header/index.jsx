@@ -20,6 +20,7 @@ const Header = () => {
                     <li><Link to="Blog">BLOG</Link></li>
                     <li><Link to="Placement">PLACEMENT</Link></li>
                      <li><Link to="productMoreDetails"></Link></li>
+                     <li><Link to="galleryDetails"></Link></li>
                 </ul>
             </div>
         </div>

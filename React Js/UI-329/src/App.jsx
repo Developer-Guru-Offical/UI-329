@@ -8,6 +8,7 @@ import Product from './Pages/Product'
 import Service from './Pages/Service'
 import ProductMoreDetails from './Components/ProductMoreDetails';
 import Gallery from './Pages/Gallery'
+import GalleryDetails from './Components/GalleryDetails';
 // import Placement from './Pages/Placement'
 // import Blog from './Pages/Blog'
 
@@ -20,8 +21,8 @@ function App() {
           <Route path="Product" element={<Product />} />
           <Route path="Service" element={<Service />} />
           <Route path="productMoreDetails" element={<ProductMoreDetails />} />
-
           <Route path="Gallery" element={<Gallery />} />
+          <Route path="galleryDetails" element={<GalleryDetails />} />
           {/*<Route path="Blog" element={<Blog />} />
           <Route path="Placement" element={<Placement />} /> */}
         </Routes>
