@@ -6,7 +6,7 @@ import { getUserDetails } from '../../Services/api';
 const GalleryDetails = () => {
     const[userData,setUserData]=useState([]);
 
-    console.log(userData,'userData@@###');
+    //console.log(userData,'userData@@###');
 
     useEffect(()=>{
             const userId = JSON.parse(localStorage.getItem('u_id'));
@@ -21,7 +21,7 @@ const GalleryDetails = () => {
             try {
                 const response = await getUserDetails(userId);
                 if (response.status === 200) {
-                    console.log(response.data);
+                   //console.log(response.data);
                     setUserData([response.data]);
     
                 }
