@@ -11,6 +11,17 @@ export const getUSerDetails=async()=>{
   }
 }
 
+// Using Axios Method
+export const getUserDetails=async(userId)=>{
+  try {
+    const response = await axios.get(`https://jsonplaceholder.typicode.com/users/${userId}`);
+    console.log(response);
+    return response;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
 // Using Fetch Method
 // export const getUSerDetails=async()=>{
 //    return fetch('https://jsonplaceholder.typicode.com/posts')
